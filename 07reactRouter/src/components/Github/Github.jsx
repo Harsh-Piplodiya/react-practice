@@ -7,7 +7,7 @@ function Github(){
     // const [data, setData] = useState([]);
 
     // useEffect(() => {
-    //     fetch('https://api.github.com/users/Harsh-Piplodiya')
+    //     fetch('url')
     //     .then((res) => res.json())
     //     .then((data) => {
     //         console.log(data);
@@ -25,6 +25,6 @@ function Github(){
 export default Github;
 
 export const githubInfoLoader = async() => {
-    const response = await fetch('https://api.github.com/users/Harsh-Piplodiya');
+    const response = await fetch('url');
     return response.json();
 }
